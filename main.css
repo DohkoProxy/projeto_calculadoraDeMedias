@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #374d39, #792eac); /* Gradiente moderno */
+    padding-top: 100px;
+    color: #333; /* Texto mais suave */
+}
+
+header {
+    align-items: center;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+header img {
+    width: 36px;
+    margin-right: 16px;
+}
+
+.container {
+    max-width: 780px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px; /* Mantém o padding para espaçamento interno */
+    background: white; /* Fundo branco para destaque */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    overflow: hidden; /* Remove qualquer overflow */
+}
+
+form {
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+form input {
+    background-color: #fff;
+    font-size: 24px;
+    border: none;
+    border-bottom: 2px solid #374d39; /* Cor da borda mais moderna */
+    padding: 8px;
+    transition: border-color 0.3s; /* Transição suave para a borda */
+}
+
+form input:focus {
+    outline: none; /* Remove o contorno padrão */
+    border-bottom: 2px solid #792eac; /* Cor ao focar */
+}
+
+form button {
+    background-color: #009432;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background 0.3s; /* Transição suave */
+}
+
+form button:hover {
+    background-color: #007a2e; /* Cor ao passar o mouse */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remove o espaçamento entre as células */
+    margin: 0; /* Remove margens padrão da tabela */
+}
+
+tbody {
+    margin-bottom: 0; /* Remover margens se houver */
+    padding-bottom: 0; /* Remover padding se houver */
+}
+
+table th {
+    border-bottom: 2px solid black;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table td {
+    text-align: center;
+    font-size: 18px;
+    padding: 14px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+table td img {
+    height: 30px;
+}
+
+.media-final-resultado {
+    padding: 8px;
+    font-weight: bold;
+    color: #fff;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.resultadoAprovado {
+    background-color: #009432;
+    padding: 8px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.resultadoReprovado {
+    background-color: rgb(220, 20, 20);
+    padding: 8px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 5px;
+}
